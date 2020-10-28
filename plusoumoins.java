@@ -4,8 +4,8 @@ class plusoumoins {
 	public static void main(String args[]) {
 		int n;
 		int reponse;
-		Random rand =new Random();
-		n = rand.nextInt(100);
+		Random rando =new Random();
+		n = rando.nextInt(100);
 		boolean trouve = false;
 		Scanner scanner = new Scanner(System.in);
 		while (!trouve) {
